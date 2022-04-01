@@ -1,5 +1,8 @@
 <h1 align="center">AI-Proctoring-Mate</h1>
 <p align="center">
+
+  <img src="https://user-images.githubusercontent.com/54600788/161250273-16048a4d-29aa-45dd-8c67-9ff206aa091f.png" height=350 width=600>
+
 </p>
 
 <p><a href="https://hack36.com" > <img src="http://bit.ly/BuiltAtHack36" height=20px> </a></p>
