@@ -81,66 +81,50 @@ Student gets the mark for review, unmark , reset response, select options for ea
   Post completion of test(either thorugh timeout or submit test) a chrome automation is run which uploads the video and resposnse files pertaining to the test.
 <p>
 
-<details>
-  <summary>:zap: <strong>Proposed Features </strong> </summary>
+#### Proposed Features
 
-#### Get Code Window:
-
-  <details>
-    <summary>:zap: <strong>Proposed Features </strong> </summary>
-  
-   <li> <code>&#x2713;</code> &nbsp; Prompts the candidate for the test code </li>
-   <li><code>&#x2713;</code> &nbsp; Checks the validity of the code</li>
-   <li><code>&#x2713;</code> &nbsp; Fetchs files of respective code</li>
-   <li> <code>&#x2713;</code> &nbsp; Practice mode for people to get familiar</li>
-  
-  </details>
-
-#### Get Details Window:
-
-<details>
-    <summary>:zap: <strong>Proposed Features </strong> </summary>
-
-<li><code>&#x2713;</code> &nbsp; Prompts for the name and unique ID of the candidate</li>
-<li><code>&#x2713;</code> &nbsp; Verifies if the ID format matches the one provided by the Teacher</li>
-</details>
+1. Get Code Window
+        
+    - ✓   Prompts the candidate for the test code.
+    - ✓   Checks the validity of the code.
+    - ✓   Fetchs files of respective code.
+    - ✓   Practice mode for people to get familiar.
 
 
-#### Show Information Window:
-<details>
-    <summary>:zap: <strong>Proposed Features </strong> </summary>
-<li><code>&#x2713;</code> &nbsp; Shows the candidate the information about the test like number of sections and if calculator is allowed</li>
-<li><code>&#x2713;</code> &nbsp; Has a timer of 90 second which on lapse starts the test</li>
-</details>
+2. Get Details Window
+
+    - ✓   Prompts for the name and unique ID of the candidate.
+    - ✓   Verifies if the ID format matches the one provided by the Teacher.
 
 
-#### Main Exam Window:
-<details>
-      <summary>:zap: <strong>Proposed Features </strong> </summary>
-  
-<li><code>&#x2713;</code> &nbsp; Renders the Questions dynamically</li>
-<li><code>&#x2713;</code> &nbsp; The question can be single or multi correct</li>
-<li><code>&#x2713;</code> &nbsp; Has buttons for each question for navigation directly to the question</li>
-<li><code>&#x2713;</code> &nbsp; These buttons change color depending on question status</li>
-<li><code>&#x2713;</code> &nbsp; Has next and previous buttons for navigation</li>
-<li><code>&#x2713;</code> &nbsp; Has 3 different sections with the ability to give different marking schemes for each section</li>
-<li> <code>&#x2713;</code> &nbsp; Buttons at the top of UI to change section as well as the through next button of lest question</li>
-<li><code>&#x2713;</code> &nbsp; Has the option to bookmark question which displays a bookmark over the question button</li>
-<li> <code>&#x2713;</code> &nbsp; Has timer at the top to show remaining time which turns red in the last 20% time</li>
-<li><code>&#x2713;</code> &nbsp; Has a calculator if the teacher allows one</li>
-<li><code>&#x2713;</code> &nbsp; Has the functionality to shuffle order of questions and options if desired</li>
-<li> <code>&#x2713;</code> &nbsp; Closes automatically after one warning if application switch is detected after a warning</li>
-<li><code>&#x2713;</code> &nbsp; Records audio and video of the candidate</li>
-<li> <code>&#x2713;</code> &nbsp; Displays a preview of the video being recorded</li> 
-<li> <code>-</code> &nbsp; The video is processed by AI algorithms using parallel computation for speedup</li>
-<li> <code>-</code> &nbsp; Generates a ultrasound pulse and records its amplitude at regular intervals</li>
-<li> <code>&#x2713;</code> &nbsp; Uploads the response file as well as video files of the candidate</li>
-<li> <code>&#x2713;</code> &nbsp; Removes unnecessary files</li>
+3. Show Information Window
 
-</details>
+    - ✓   Shows the candidate the information about the test like number of sections and if calculator is allowed.
+    - ✓   Has a timer of 90 second which on lapse starts the test.
 
 
-</details>
+4. Main Exam Window
+
+    - ✓ Renders the Questions dynamically
+    - ✓ The question can be single or multi correct
+    - ✓ Has buttons for each question for navigation directly to the question
+    - ✓ These buttons change color depending on question status
+    - ✓ Has next and previous buttons for navigation
+    - ✓ Has 3 different sections with the ability to give different marking schemes for each section
+    - ✓ Buttons at the top of UI to change section as well as the through next button of lest question
+    - ✓ Has the option to bookmark question which displays a bookmark over the question button
+    - ✓ Has timer at the top to show remaining time which turns red in the last 20% time
+    - ✓ Has a calculator if the teacher allows one
+    - ✓ Has the functionality to shuffle order of questions and options if desired
+    - ✓ Closes automatically after one warning if application switch is detected after a warning
+    - ✓ Records audio and video of the candidate
+    - ✓ Displays a preview of the video being recorded
+    - ✓ The video is processed by AI algorithms using parallel computation for speedup
+    - ✓ Generates a ultrasound pulse and records its amplitude at regular intervals
+    - ✓ Uploads the response file as well as video files of the candidate
+    - ✓ Removes unnecessary files
+
+
 
 ## PART2 : Test Mate
 
@@ -177,44 +161,34 @@ Once the quiz is created, he/she will be prompted to a webpage, with a <b>unique
 
 ### Test Mate Progress
 
-<details>
-  
-  <summary>:zap: <strong>Proposed Features </strong> </summary>
- 
-#### 1. Home:
+1. Home
 
-- <code>&#x2713;</code> &nbsp; Landing Page
+    - ✓ Landing Page
 
-#### 2. Authentication:
+2. Authentication
 
-- <code>&#x2713;</code> &nbsp; Registration 
-- <code>&#x2713;</code> &nbsp; Login
-- <code>&#x2713;</code> &nbsp; Email Activation
-- <code>&#x2713;</code> &nbsp; Reset Password via Mail
-- <code>&#x2713;</code> &nbsp; Logout
+    - ✓ Registration
+    - ✓ Login
+    - ✓ Email Activation
+    - ✓ Reset Password via Mail
+    - ✓ Logout
 
-#### 3. Dashboard:
+3. Dashboard:
+    
+    - ✓ Create Dashboard
+    - ✓ Create Quiz
+        
+        - ✓ Configurations Page
+        - ✓ Dynamic Section's Page
+        - ✓ Uniques Code Display Page
 
-- <code>&#x2713;</code> &nbsp; Create Dashboard
-- <code>&#x2713;</code> &nbsp; Create Quiz
-  
-  <ul>
-   <li><code>&#x2713;</code> &nbsp; Configurations Page</li> 
-   <li><code>&#x2713;</code> &nbsp; Dynamic Section's Page</li>
-   <li><code>&#x2713;</code> &nbsp; Uniques Code Display Page</li> 
-  </ul>
-  
+    - ✓ Stats Cards
+    - ✓ Stats Plot
+    - ✓ Activity Timeline
+    - ✓ Quizzes Created
+    - ✓ Responses Received
 
-- <code>&#x2713;</code> &nbsp; Stats Cards
-- <code>&#x2713;</code> &nbsp; Stats Plot
-- <code>&#x2713;</code> &nbsp; Activity Timeline
-- <code>&#x2713;</code> &nbsp; Quizzes Created
-- <code>&#x2713;</code> &nbsp; Responses Received
-
-#### 4. Feedback & Contact Us:
-
-- <code>&#x2713;</code> &nbsp; Reach Us Form
-- <code>&#x2713;</code> &nbsp; Feedback Form
-
-</details>
-
+4. Feedback & Contact Us:
+    
+    - ✓ Reach Us Form
+    - ✓ Feedback Form
